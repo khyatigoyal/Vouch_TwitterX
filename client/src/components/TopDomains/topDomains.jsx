@@ -83,7 +83,7 @@ function TopDomains({ tweets }) {
     });
 
     setDomainsList(domains);
-  }, []);
+  }, [tweets]);
   return (
     <div className='container fluid p-0'>
       <div className='p-3'>
