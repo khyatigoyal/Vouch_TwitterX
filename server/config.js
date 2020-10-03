@@ -1,12 +1,11 @@
-const callbackURL = process.env.CALLBACK_URL
-  ? process.env.CALLBACK_URL
-  : 'http://127.0.0.1:8080/twitter/callback';
-
+// const callbackURL = 'http://127.0.0.1:8080/twitter/callback'; //development
+const callbackURL =
+  'https://desolate-basin-58635.herokuapp.com/twitter/callback'; //production
 const TWITTER_CONFIG = {
-  consumerKey: 'ooCxPZGrOO19n20A84yXGnRHQ',
-  consumerSecret: 'GT1WwWb6kfgJihH2vxCmryz0Cd92CWO3Tl9Vuw3vySe1AeMXgL',
-  consumerToken: '1152347495306915840-J7meIjrm4yuCWXc6zr0fijAmZPcyph',
-  consumerTokenSecret: 'ODtrMbJgtgUGHJs1VqDSDCy6mtKbJjy70badHGOBxEAPb',
+  consumerKey: '9kF5BU4GIcgctNlKAgVTSMCn8',
+  consumerSecret: 'LL6XVUYqULWkxlX5yv86vhlBNzZBH9RR1mFFs5KBxCBNwr425F',
+  consumerToken: '1152347495306915840-NEEHuhawaN2FQ1N6uDnPPPKN5oN00U',
+  consumerTokenSecret: 'SA7ebf5XnedKaU1GHS3QbnTMb1kJ1CtsOXTYPBftE5Cyv',
   callbackURL: callbackURL,
 };
 
