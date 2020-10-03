@@ -1,0 +1,37 @@
+.sideBarBackground {
+  height: 100vh;
+  box-shadow: -2px 0 5px 0 rgba(117, 59, 185, 0.1);
+}
+
+.activeState {
+  cursor: pointer;
+}
+
+.activeState:hover {
+  text-decoration: none;
+}
+
+.nonActiveState {
+  cursor: pointer;
+}
+
+.nonActiveState:hover {
+  text-decoration: none;
+  background: '#f7fafc';
+}
+.nonActiveState:hover .nonActiveLink {
+  color: '#3796f6';
+}
+.activeLink {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  color: '#3796f6';
+}
+
+.nonActiveLink {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  color: '#90a8be';
+}
