@@ -5,8 +5,8 @@ export default () => {
   return (
     <footer>
       <a
-        href='https://github.com/khyatigoyal'
-        title='Github repo'
+        href='https://github.com/khyatigoyal/Vouch_TwitterX'
+        title='Product Github repo'
         className={'github'}
       >
         <FontAwesome name={'github'} />
